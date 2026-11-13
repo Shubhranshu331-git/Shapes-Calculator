@@ -20,4 +20,10 @@
 
         public override string ToString() => Describe();
     }
-}
+
+//    public interface IShape
+//    {
+//        public decimal Area();
+//    }
+
+//}
