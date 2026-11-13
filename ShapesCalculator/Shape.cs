@@ -11,7 +11,7 @@
 
         public abstract double Area();
 
-        public abstract double perimeter();
+        public abstract double Perimeter();
 
         public virtual string Describe()
         {
@@ -20,10 +20,6 @@
 
         public override string ToString() => Describe();
     }
+}
 
-//    public interface IShape
-//    {
-//        public decimal Area();
-//    }
 
-//}
