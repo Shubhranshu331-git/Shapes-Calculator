@@ -8,7 +8,7 @@ namespace ShapesCalculator
         public Circle(double radius) : base("Circle")
         {
             if (radius <= 0)
-                throw new ArguementException("Radius must be greater than zero.");
+                throw new ArgumentException("Radius must be greater than zero.");
             Radius = radius;
         }
 
